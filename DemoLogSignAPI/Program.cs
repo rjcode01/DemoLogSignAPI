@@ -3,11 +3,6 @@ using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Set default culture to Invariant
-CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
-CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.InvariantCulture;
-
-
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.ConfigureInfrastructureServices(builder.Configuration);
