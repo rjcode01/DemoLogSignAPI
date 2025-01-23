@@ -1,0 +1,6 @@
+@DemoLogSignAPI_HostAddress = http://localhost:5272
+
+GET {{DemoLogSignAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
